@@ -6,7 +6,8 @@ import io.cucumber.junit.Cucumber;
 import io.cucumber.junit.CucumberOptions;
 
 @RunWith(Cucumber.class)
-@CucumberOptions(features = "src\\test\\resources\\Features\\Example.feature", glue = "org.step")
+@CucumberOptions(features = "src\\test\\resources\\Features\\DataTablewithoutHeader.feature", glue = "org.step",
+dryRun = false, strict = false, monochrome = true)
 public class RunnerClass {
 
 }
