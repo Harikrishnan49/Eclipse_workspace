@@ -1,0 +1,89 @@
+[
+  {
+    "line": 20,
+    "elements": [
+      {
+        "start_timestamp": "2024-10-16T04:19:15.213Z",
+        "line": 23,
+        "name": "To implement the API checks get,post,update and delete",
+        "description": "",
+        "id": "api-automation-check-in-demo-pet-store-url;to-implement-the-api-checks-get-post-update-and-delete",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 16036942300,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "I want to get the available pets in the store",
+            "match": {
+              "location": "StepDefinition.i_want_to_get_the_available_pets_in_the_store()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1829619200,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "I need to post a new pet as available in the store",
+            "match": {
+              "location": "StepDefinition.i_need_to_post_a_new_pet_as_available_in_the_store()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1412462700,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "I need to update the status of the pet as sold",
+            "match": {
+              "location": "StepDefinition.i_need_to_update_the_status_of_the_pet_as_sold()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1349724700,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "I need to delete that pet",
+            "match": {
+              "location": "StepDefinition.i_need_to_delete_that_pet()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tag"
+          },
+          {
+            "name": "@tag1"
+          }
+        ]
+      }
+    ],
+    "name": "API Automation check in Demo Pet Store URL",
+    "description": "",
+    "id": "api-automation-check-in-demo-pet-store-url",
+    "keyword": "Feature",
+    "uri": "classpath:FeatureFile/LezDo_API.feature",
+    "tags": [
+      {
+        "name": "@tag",
+        "type": "Tag",
+        "location": {
+          "line": 19,
+          "column": 1
+        }
+      }
+    ]
+  }
+]

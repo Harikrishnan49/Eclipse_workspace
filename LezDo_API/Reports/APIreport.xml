@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="20.695877">
+    <testcase classname="API Automation check in Demo Pet Store URL" name="To implement the API checks get,post,update and delete" time="20.695877">
+        <system-out><![CDATA[Given I want to get the available pets in the store.........................passed
+When I need to post a new pet as available in the store.....................passed
+And I need to update the status of the pet as sold..........................passed
+Then I need to delete that pet..............................................passed
+]]></system-out>
+    </testcase>
+</testsuite>
