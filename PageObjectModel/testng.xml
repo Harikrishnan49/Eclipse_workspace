@@ -1,0 +1,9 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="SuiteName">
+    <test name="TestName">
+        <classes>
+            <!-- Add the fully qualified class names of your test classes here -->
+            <class name="org.pom.BaseClass"/>
+        </classes>
+    </test>
+</suite>

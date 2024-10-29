@@ -2,6 +2,7 @@ package org.pom;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.support.PageFactory;
 import org.pages.LoginPage;
 import org.testng.annotations.Test;
 
@@ -15,9 +16,16 @@ public class BaseClass {
 		WebDriver driver = new ChromeDriver();
 		driver.get("https://adactinhotelapp.com/");
 		
-		LoginPage lp = new LoginPage();
-		lp.username(driver).sendKeys("TomHanks");
-		lp.password(driver).sendKeys("TomHanks");
-		lp.loginButton(driver).click();
+		
+		  LoginPage lp = new LoginPage(); 
+		  lp.username(driver).sendKeys("TomHanks");
+		  lp.password(driver).sendKeys("TomHanks"); 
+		  lp.loginButton(driver).click();
+		 	
+
+			/*
+			 * LoginPage.username.sendKeys("TomHanks");
+			 * LoginPage.password.sendKeys("TomHanks"); LoginPage.loginButton.click();
+			 */
 	}
 }

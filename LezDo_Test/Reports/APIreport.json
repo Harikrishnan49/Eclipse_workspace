@@ -1,0 +1,77 @@
+[
+  {
+    "line": 20,
+    "elements": [
+      {
+        "start_timestamp": "2024-10-15T07:02:43.406Z",
+        "line": 23,
+        "name": "To implement the API checks get,post,update and delete",
+        "description": "",
+        "id": "api-automation-check-in-demo-pet-store-url;to-implement-the-api-checks-get-post-update-and-delete",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 24,
+            "name": "I want to get the available pets in the store",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 25,
+            "name": "I need to post a new pet as available in the store",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 26,
+            "name": "I need to update the status of the pet as sold",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 27,
+            "name": "I need to delete that pet",
+            "match": {},
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tag"
+          },
+          {
+            "name": "@tag1"
+          }
+        ]
+      }
+    ],
+    "name": "API Automation check in Demo Pet Store URL",
+    "description": "",
+    "id": "api-automation-check-in-demo-pet-store-url",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/FeatureFile/LezDo.feature",
+    "tags": [
+      {
+        "name": "@tag",
+        "type": "Tag",
+        "location": {
+          "line": 19,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
