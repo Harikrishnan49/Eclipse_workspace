@@ -9,7 +9,7 @@ public class OpenAmazon {
 		System.setProperty("webdriver.chrome.driver", "C:\\Users\\harik\\eclipse-workspace\\Trial1\\Drivers\\chromedriver.exe");
 		WebDriver driver = new ChromeDriver();
 		driver.get("https://www.amazon.in/");
-		System.out.println("This is my first in Git ");
+		System.out.println("This is my first in Git");
 	}
 
 }
